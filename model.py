@@ -1,9 +1,5 @@
 import pandas as pd
-import numpy as np
-from matplotlib import pyplot as plt
 import pickle
-import random
-import tensorflow as tf
 from sklearn.linear_model import LinearRegression
 df = pd.read_csv("homeprices_banglore.csv")
 from sklearn.model_selection import train_test_split
